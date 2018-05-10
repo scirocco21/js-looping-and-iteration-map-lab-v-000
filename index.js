@@ -9,7 +9,7 @@ function splitName(names) {
   })
 }
 
-function nameToAttributes(splitNames) {
+function nameToAttributes(drivers) {
   const splitNames = splitName(drivers);
   const driversObjects = [];
   splitNames.map(function(splitName) {
