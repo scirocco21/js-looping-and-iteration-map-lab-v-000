@@ -11,12 +11,12 @@ function splitName(names) {
 
 const splitNames = splitName(drivers);
 
-function objectConstructor(splitNames) {
-  const driversObjects= [];
+function nameToAttributes(splitNames) {
+  const driversObjects = [];
   splitNames.map(function(splitName) {
     const newObj = {};
     newObj.firstName = splitName[0];
-    newObj.secondName = splitName[1];
+    newObj.lastName = splitName[1];
     return driversObjects.push(newObj);
   })
   return driversObjects;
