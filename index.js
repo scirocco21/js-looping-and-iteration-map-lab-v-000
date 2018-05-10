@@ -22,5 +22,10 @@ function nameToAttributes(drivers) {
 }
 
 function attributesToPhrase(driversArray) {
-  
+  const strings = [];
+
+  driversArray.map(function(driver) {
+    strings.push(`${driver.name} is from ${driver.hometown}`)
+  })
+  return strings;
 }
