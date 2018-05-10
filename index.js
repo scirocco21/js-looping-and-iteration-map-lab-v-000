@@ -20,3 +20,7 @@ function nameToAttributes(drivers) {
   })
   return driversObjects;
 }
+
+function attributesToPhrase(driversArray) {
+  
+}
